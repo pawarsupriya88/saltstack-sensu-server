@@ -1,17 +1,18 @@
 base:
-  '*':
-    - git
+#  '*':
+#    - git
 
-  'sensu-client*':
+#  'sensu-client*':
 #    - sensu.client
-    - test.server
+#    - test.server
 
   'sensu-server*':
-    - rabbitmq.server
-    - radis.server
-    - sensu.server
-    - sensu.client
+    - observium.server
+#    - rabbitmq.server
+#    - radis.server
+#    - sensu.server
+#    - sensu.client
 
-  'self-*':
+#  'self-*':
 #    - cert
-   - test.server
+#    - test.server
