@@ -7,12 +7,14 @@ base:
 #    - test.server
 
   'sensu-server*':
-    - observium.server
+    - CreateUser.server
+#    - observium.server
 #    - rabbitmq.server
 #    - radis.server
 #    - sensu.server
 #    - sensu.client
 
 #  'self-*':
+#    - CreateUser.server
 #    - cert
 #    - test.server
